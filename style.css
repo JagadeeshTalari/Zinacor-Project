@@ -1,33 +1,135 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gothic+A1:wght@500&display=swap');
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: "Gothic A1";
+    width: 100vw;
+    padding: 1rem 0rem;
+    /* background-color: #1c1c1c;
+    color: #fff; */
 }
+
+/* //---- Nav-bar ----// */
+
 nav{
+    width: 88vw;
     display: flex;
+    margin: auto;
     justify-content: space-between;
     flex-direction: row;
 }
 
+/* nav-logo */
 .logo{
-    width: 32px;
+    width: 20px;
+    font-size: 14px;
     font-family: "Bebas Neue";
     font-weight: 700;
     text-align: center;
     text-decoration: underline;
-    padding: 3px 3px;
+    padding: 1px 1px;
+    border: 2px solid #381F92;
+}
+
+/* nav-rightSide-part */
+.right-part{
+    display: none;
+}
+
+.cross{
+    display: none;
+}
+
+/* //--- HeroSection ----// */
+.hero{
+    display: none;
+}
+
+
+@media screen and (min-width:660px) {   
+
+/* //--- Navbar Section ----//  */
+nav{
+    width: 85vw;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.hamburgerMenu{
+    display: none;
+}
+    
+.logo{
+    width: 26px;
+    font-size: 18px;
+    font-family: "Bebas Neue";
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    padding: 1px 1px;
     border: 3px solid #381F92;
 }
 
 .nav-list{
     display: flex;
     flex-direction: row;
-    gap: 2rem;
+    font-size: 0.65rem;
+    gap: 1rem;
     justify-content: flex-end;
+   
 }
 
-.hero{
+/* navBar-right-section */
+.right-part{
     display: flex;
+    flex-direction: column;
+    
+}
+
+.languages{
+    margin-left: 1rem;
+}
+
+.divider-lines{
+    
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.35rem;
+}
+
+.divider-lines>li{
+    height: 6px;
+    border-right: 1px solid #381F92;
+    margin-right: 4.1rem;
+}
+
+.divider-lines>li:nth-child(2){
+    margin-right: 4.8rem;
+}
+
+.divider-lines>li:nth-child(3){
+    margin-right: 4.3rem;
+}
+
+.nav-list-line{
+    margin-top: 0rem;
+    border-bottom: 1px solid #381F92 ;
+}
+
+/* //-- Hero Section --// */
+
+.hero{
+    display: none;
     flex-direction: column;
     align-items: center;
     text-align: center;
@@ -54,4 +156,168 @@ nav{
     display: flex;
     flex-direction: row;    
     
+}
+
+}
+
+/* Medium Screens */
+@media screen and (min-width:768px) {
+
+  
+/* //--- Navbar Section ----//  */
+.logo{
+    width: 32px;
+    font-size: 20px;
+    font-family: "Bebas Neue";
+    font-weight: 700;
+    text-align: center;
+    text-decoration: underline;
+    border: 3px solid #381F92;
+}
+
+/* navBar-right-section */
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.65rem;
+    font-weight: 600;
+    gap: 1.5rem;
+    justify-content: flex-end;
+   
+}
+
+.languages{
+    margin-left: 2.5rem;
+}
+
+.divider-lines{
+    
+    margin-top: 0.4rem;
+}
+
+.divider-lines>li{
+    height: 8px;
+    border-right: 1px solid #381F92;
+    margin-right: 4.5rem;
+}
+
+.divider-lines>li:nth-child(2){
+    margin-right: 5.25rem;
+}
+
+.divider-lines>li:nth-child(3){
+    margin-right: 4.8rem;
+}
+
+.nav-list-line{
+    margin-top: 0rem;
+    border-bottom: 1px solid #381F92 ;
+}
+
+/* //-- Hero Section --// */
+
+.hero{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 7rem;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.zinacor{
+    color: #381F92;
+}
+
+.arrow{
+    height: 30px;
+    width: 30px;
+    border-right: 7px solid #381F92;
+    border-bottom: 7px solid #381F92;
+    margin-top: 10px;
+    margin-left: 6rem;
+}
+
+.hero-first-sec{
+    margin-left: -12rem;
+    display: flex;
+    flex-direction: row;    
+    
+}
+
+}
+
+/* Large Screens */
+@media screen and (min-width:1024px) {
+    
+    .nav-list{
+        font-size: 0.7rem;
+    }
+
+    .divider-lines>li{
+        height: 7px;
+        
+    }
+
+    
+}
+
+/* Extra Large Screens */
+@media screen  and (min-width:1700px) {
+    
+    body{
+        
+        padding: 2.5rem 0rem;
+        /* background-color: #1c1c1c;
+        color: #fff; */
+    }
+    
+    /* //--- Navbar Section ----//  */
+    nav{
+        width: 80vw;
+        
+    }
+
+    .logo{
+        width: 50px;
+        font-size: 32px;
+        padding: 4px 0px;
+        border: 4.5px solid #381F92;
+    }
+
+    /* navBar-right-section */
+    .nav-list{
+        display: flex;
+        flex-direction: row;
+        font-size: 1.2rem;
+        font-weight: 600;
+        gap: 5rem;
+        justify-content: flex-end;
+       
+    }
+
+    .languages{
+        margin-left: 11rem;
+    }
+
+    .divider-lines{
+        margin-top: 1rem;
+    }
+
+    .divider-lines>li{
+        height: 14px;
+        border-right: 1.25px solid #381F92;
+        margin-right: 10.5rem;
+    }
+    
+    .divider-lines>li:nth-child(2){
+        margin-right: 12rem;
+    }
+    
+    .divider-lines>li:nth-child(3){
+        margin-right: 11.5rem;
+    }
+
+
 }
