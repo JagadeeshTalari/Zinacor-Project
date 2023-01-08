@@ -46,6 +46,10 @@ nav{
 }
 
 /* //--- HeroSection ----// */
+.hero-first-sec{
+display: flex;
+align-items: center;
+}
 
 .hero-heading{
     width: 88vw;
@@ -53,7 +57,7 @@ nav{
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 700;
     font-family: "montreal";
     /* letter-spacing: -0.2rem; */
@@ -65,13 +69,23 @@ nav{
     margin-right: 0.2rem;
 }
 
-.arrow{
+.head-arrow{
     height: 14px;
     width: 14px;
     border-right: 4px solid #381F92;
     border-bottom: 4px solid #381F92;
-    /* margin-top: 10px;
-    margin-left: 6rem; */
+    /* margin-top: 10px; */
+    margin-left: 3rem; 
+}
+
+.head-arrow-line{
+    height: 4px;
+    width: 25px;
+    background-color: #381f92;
+    transform: rotate(45deg);
+    position: relative;
+    top: 0.2rem;
+    right: 0.42rem;
 }
 
 .hero-first-sec{
@@ -88,13 +102,16 @@ nav{
     
 }
 
-/* protection -section */
+/*--// Protection -section //--*/
 
 .protection{
     width: 90vw;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
+/* line-protection-sec-part1 */
 .list-line{
     margin-top: 0rem;
     border-bottom: 1px solid #381F92 ;
@@ -103,23 +120,50 @@ nav{
 .divider-lines{
     list-style-type: none;
     display: flex;
-    margin-top: 1rem;
+   
 }
 
 .divider-lines>li{
-    height: 14px;
+    height: 10px;
     border-right: 1.25px solid #381F92;
     margin-right: 10.5rem;
 }
 
-.divider-lines>li:nth-child(2){
-    margin-right: 12rem;
+/* protection-middle-section-left-part */
+
+.protection-middle-section{
+    display: flex;
+    flex-direction: column;
+    
 }
 
-.divider-lines>li:nth-child(3){
-    margin-right: 11.5rem;
+.protection-left-part{
+    display: flex;
+    flex-direction: column;
+    
 }
 
+.protection-left-part>h1{
+    
+    font-size: 25px;
+    font-weight: 700;
+    font-family: "montreal";
+    margin: 1rem 0rem;
+}
+
+.protection-left-part>p{
+    font-size: 10px;
+    margin-bottom: 0.5rem;
+    
+}
+
+.content-arrow{
+    align-self: flex-end;
+    transform: rotate(40deg);
+    color: #381F92;
+    width: 20px;
+    
+}
 
 @media screen and (min-width:660px) {   
 
