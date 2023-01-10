@@ -10,6 +10,7 @@ body{
     font-family: "Gothic A1";
     width: 100vw;
     padding: 1rem 0rem;
+    background-color: #f2f2f2;
     /* background-color: #1c1c1c;
     color: #fff; */
 }
@@ -535,9 +536,76 @@ nav{
         display: none;
     }
 
+    /* //--PROTECTION SECTION--// */
     .protection, .protection-bottom-section, .portection-line{
         display: none;
     }
+
+    /* //--REFERENCES SECTION--// */
+
+    .References{
+        width: 80vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Reference-sec Heading-sec */
+    .sec-heading{
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    /* Reference-sec Content-sec */
+
+    .Reference-Content-sec{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .Reference-Content, .Reference-Content>div{
+        display: flex;
+        flex: row;
+        justify-content: space-between;
+        gap:4rem;
+    }
+
+    .sNo{
+        font-size: 16px;
+    }
+    .oilplatform{
+        
+        height: 300px;
+        margin-right: 2rem;
+    }
+    
+
+    .Reference-Content-text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 2rem;
+        letter-spacing: 0.05rem;
+       
+    }
+
+    .Rfct h2{
+        margin-bottom: 2rem;
+    }
+
+    .Rfct div p{
+        font-size: 16px;
+        margin-bottom: 0.3rem;
+    }
+
+    .Rfct-formula{
+        color: #381F92;
+    }
+
+    /* Reference-sec Button-sec */
+
+    /* //--FOOTER SECTION--// */
 
     .footer-products{
         width: 90vw;
@@ -581,6 +649,8 @@ nav{
         margin-bottom: 1rem;
     }
 
+    /* other-wires-sec Start */
+
     .other-wires-arrow{
         transform: rotate(-45deg);
     }
@@ -602,5 +672,7 @@ nav{
         text-decoration: underline;
         font-weight: 600;
     }
+
+    /* other-wires-sec End */
 
 }
