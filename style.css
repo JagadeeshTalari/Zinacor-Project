@@ -69,6 +69,8 @@ align-items: center;
     margin-right: 0.2rem;
 }
 
+/* heading arrow */
+
 .head-arrow{
     height: 14px;
     width: 14px;
@@ -80,12 +82,12 @@ align-items: center;
 
 .head-arrow-line{
     height: 4px;
-    width: 25px;
+    width: 20px;
     background-color: #381f92;
     transform: rotate(45deg);
     position: relative;
-    top: 0.2rem;
-    right: 0.42rem;
+    top: 0.35rem;
+    right: 0.15rem;
 }
 
 .hero-first-sec{
@@ -108,7 +110,8 @@ align-items: center;
     width: 90vw;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    gap: 0.5rem;
 }
 
 /* line-protection-sec-part1 */
@@ -164,6 +167,116 @@ align-items: center;
     width: 20px;
     
 }
+
+.horizontal-line{
+    width: 100%;
+    height: 1px;
+    background-color: #381F92;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Protection-left-part-bottom-Section */
+
+.protection-left-part-bottomSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.zincAluminium, .zincFormulas{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.zincAluminium{
+    padding: 0.2rem 0rem;
+}
+
+.zincAluminium h3{
+    font-size: 8px;
+    
+}
+
+.zincAluminium a{
+    font-size: 8px;
+    color: #A4A4B9;
+
+}
+
+.zincFormulas h1{
+    color: #381F92;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+/* //-- protection-right-part --// */
+
+.protection-right-part{
+    margin: 2em 0rem;
+}
+
+.zinc-img{
+    display: flex;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    background-color: #E4E4E4;
+}
+
+.zinc-coil{
+    margin: auto;
+    width: 100%;
+}
+
+/* Mobile-view-line */
+.mobile-view-line{
+    display: flex;
+    margin-top: 0.75rem;
+}
+
+.vertical-line{
+    height: 500px;
+    width: 1px;
+    background-color: #381F92;
+}
+
+.vertical-divider-lines {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 21rem;
+}
+
+.vertical-divider-lines li{
+    width: 8px;
+    height: 1px;
+    background-color: #381F92;
+}
+
+.application-btn{
+    background-color: #381F92;
+    color: #fff;
+    padding: 0.5rem 2.5rem;
+    font-size: 12px;
+}
+
+.card-link{
+    color: #1c1c1c;
+    font-size: 0.6rem;
+}
+
+.protection-bottom-section{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+
 
 @media screen and (min-width:660px) {   
 
@@ -417,4 +530,77 @@ nav{
         width: 100vw;
         
     }
+
+    .mobile-view-line{
+        display: none;
+    }
+
+    .protection, .protection-bottom-section, .portection-line{
+        display: none;
+    }
+
+    .footer-products{
+        width: 90vw;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-line{
+        height: 2px;
+        background-color: #381F92;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer-products-heading{
+        font-size: 40px;
+        font-weight: 900;
+    }
+
+    .footer-elements{
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer-element-text, .footer-element-text>div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .footer-element-text>div>div{
+        font-size: 24px;
+        margin-left: 1.75rem;
+    }
+
+    .line{
+        height: 1px;
+        width: 100%;
+        background-color: #381F92;
+        margin-bottom: 1rem;
+    }
+
+    .other-wires-arrow{
+        transform: rotate(-45deg);
+    }
+
+    .other-wires-details{
+        display: flex;
+        flex-direction: row;
+        width: 80%;
+        justify-content: space-between;
+    }
+
+    .other-wires-details>div{
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .chemical-formula{
+        text-decoration: underline;
+        font-weight: 600;
+    }
+
 }
