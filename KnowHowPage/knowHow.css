@@ -1,0 +1,46 @@
+body{
+    /* width: 80vw; */
+    margin: auto;
+}
+
+.know-how-heroSection{
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.know-heading{
+    font-size: 70px;
+    font-weight: 900;
+    
+}
+
+.head-arrow{
+    align-self: center;
+    margin-left: 5rem;
+}
+
+.knowhowImg{
+    margin: auto;
+}
+
+section{
+    width: 85vw;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.head-line{
+    height: 2.25px;
+    width: 85vw;
+    margin: auto;
+    margin-top: 6.5rem;
+}
+
+.circularImg{
+    height: 300px;
+}
+
+

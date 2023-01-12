@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gothic+A1:wght@500&family=IBM+Plex+Sans:wght@700&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -9,16 +8,16 @@
 body{
     font-family: "Gothic A1";
     width: 100vw;
-    padding: 1rem 0rem;
+    padding: 2.25rem 0rem;
     background-color: #f2f2f2;
-    /* background-color: #1c1c1c;
-    color: #fff; */
+    display: flex;
+    flex-direction: column;
 }
 
 /* //---- Nav-bar ----// */
 
 nav{
-    width: 88vw;
+    width: 80vw;
     display: flex;
     margin: auto;
     justify-content: space-between;
@@ -28,661 +27,196 @@ nav{
 /* nav-logo */
 .logo{
     width: 20px;
-    font-size: 14px;
+    font-size: 24px;
     font-family: "Bebas Neue";
     font-weight: 700;
     text-align: center;
     text-decoration: underline;
-    padding: 1px 1px;
-    border: 2px solid #381F92;
+    padding: 3px 8px;
+    border: 3px solid #381F92;
+    color: black;
 }
 
-/* nav-rightSide-part */
-.right-part{
-    display: none;
+/* navBar-right-section */
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    font-size: 0.9rem;
+    font-weight: 600;
+    gap: 4rem;
+    justify-content: flex-end;
+   
 }
 
-.cross{
-    display: none;
+.nav-list>a{
+    text-decoration: none;
+    color: #000;
 }
 
-/* //--- HeroSection ----// */
-.hero-first-sec{
-display: flex;
-align-items: center;
+.languages{
+    margin-left: 8rem;
+   
+}
+
+/* 
+.divider-lines{
+    margin-top: 1rem;
+}
+
+.divider-lines>li{
+    height: 14px;
+    border-right: 1.25px solid #381F92;
+    margin-right: 10.5rem;
+}
+
+.divider-lines>li:nth-child(2){
+    margin-right: 12rem;
+}
+
+.divider-lines>li:nth-child(3){
+    margin-right: 11.5rem;
+} */
+
+
+/* // --Hero Section-- // */
+
+.Hero-Section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
 }
 
 .hero-heading{
-    width: 88vw;
+    width: 80vw;
     margin: auto;
     flex-direction: column;
     align-items: center;
     margin-top: 3rem;
-    font-size: 25px;
-    font-weight: 700;
-    font-family: "montreal";
-    /* letter-spacing: -0.2rem; */
-    margin-bottom: 10px;
+    font-size: 80px;
+    font-weight: 900;
+    
 }
-
-.zinacor{
-    color: #381F92;
-    margin-right: 0.2rem;
-}
-
-/* heading arrow */
-
-.head-arrow{
-    height: 14px;
-    width: 14px;
-    border-right: 4px solid #381F92;
-    border-bottom: 4px solid #381F92;
-    /* margin-top: 10px; */
-    margin-left: 3rem; 
-}
-
-.head-arrow-line{
-    height: 4px;
-    width: 20px;
-    background-color: #381f92;
-    transform: rotate(45deg);
-    position: relative;
-    top: 0.35rem;
-    right: 0.15rem;
-}
-
+ 
 .hero-first-sec{
     text-align: center;
     /* margin-left: -12rem;  */
     display: flex;
     flex-direction: row;
     
-    
+
 }
 
-.hero img{
-    width: 100vw;
-    
+/* Big Arrow */
+
+.head-arrow{
+    height: 40px;
+    width: 40px;
+    border-right: 10px solid #381F92;
+    border-bottom: 10px solid #381F92;
+    /* margin-top: 10px; */
+    margin-left: 15rem; 
+    align-self: center;
 }
 
-/*--// Protection -section //--*/
-
-.protection{
-    width: 90vw;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-}
-
-/* line-protection-sec-part1 */
-.list-line{
-    margin-top: 0rem;
-    border-bottom: 1px solid #381F92 ;
-}
-
-.divider-lines{
-    list-style-type: none;
-    display: flex;
-   
-}
-
-.divider-lines>li{
+.head-arrow-line{
     height: 10px;
-    border-right: 1.25px solid #381F92;
-    margin-right: 10.5rem;
+    width: 65px;
+    background-color: #381f92;
+    transform: rotate(45deg);
+    position: relative;
+    top: 1.1rem;
+    right: 0.55rem;
 }
 
-/* protection-middle-section-left-part */
+/* //--SECTION-2 --// */
 
-.protection-middle-section{
+.Section-2{
+    width: 80vw;
+    margin: auto;
     display: flex;
     flex-direction: column;
-    
 }
 
-.protection-left-part{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.protection-left-part>h1{
-    
-    font-size: 25px;
-    font-weight: 700;
-    font-family: "montreal";
-    margin: 1rem 0rem;
-}
-
-.protection-left-part>p{
-    font-size: 10px;
-    margin-bottom: 0.5rem;
-    
-}
-
-.content-arrow{
-    align-self: flex-end;
-    transform: rotate(40deg);
-    color: #381F92;
-    width: 20px;
-    
-}
-
-.horizontal-line{
-    width: 100%;
-    height: 1px;
-    background-color: #381F92;
-    margin-top: 2rem;
-    margin-bottom: 1.5rem;
-}
-
-/* Protection-left-part-bottom-Section */
-
-.protection-left-part-bottomSection{
+.Section-2-Content-sec{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-top: 3rem;
 }
 
-.zincAluminium, .zincFormulas{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-}
-
-.zincAluminium{
-    padding: 0.2rem 0rem;
-}
-
-.zincAluminium h3{
-    font-size: 8px;
-    
-}
-
-.zincAluminium a{
-    font-size: 8px;
-    color: #A4A4B9;
-
-}
-
-.zincFormulas h1{
-    color: #381F92;
-    font-size: 28px;
-    font-weight: 900;
-}
-
-/* //-- protection-right-part --// */
-
-.protection-right-part{
-    margin: 2em 0rem;
-}
-
-.zinc-img{
-    display: flex;
-    width: 80%;
-    height: 200px;
-    margin: auto;
-    background-color: #E4E4E4;
-}
-
-.zinc-coil{
-    margin: auto;
-    width: 100%;
-}
-
-/* Mobile-view-line */
-.mobile-view-line{
-    display: flex;
-    margin-top: 0.75rem;
-}
-
-.vertical-line{
-    height: 500px;
-    width: 1px;
-    background-color: #381F92;
-}
-
-.vertical-divider-lines {
-    list-style-type: none;
+/* Section-2 Left-part */
+.sec2-leftPart{
     display: flex;
     flex-direction: column;
-    gap: 21rem;
+    gap: 1rem;
+    width: 40%;
 }
 
-.vertical-divider-lines li{
-    width: 8px;
+.common-Sec-Heading{
+    font-size: 50px;
+}
+
+/* Large Arrow */
+
+.small-arrow{
+    height: 15px;
+    width: 15px;
+    border-right: 2px solid #381F92;
+    border-bottom: 2px solid #381F92;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-self: end;
+}
+
+.small-arrow-line{
+    height: 2px;
+    width: 25px;
+    background-color: #381f92;
+    transform: rotate(45deg);
+    position: relative;
+    top: 0.35rem;
+    right: 0.35rem;
+}
+
+/* Section-2 Right-part */
+
+.sec2-rightPart{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+/* circular-logo */
+.circularLogo{
+    height: 250px;
+    width: fit-content;
+    position: relative;
+    z-index: -1;
+}
+
+/* Line */
+.line{
     height: 1px;
+    width: 100%;
     background-color: #381F92;
+    margin-bottom: 1rem;
+}
+
+/* Heading-line */
+.head-line{
+    height: 2.25px;
+    width: 80vw;
+    margin: auto;
+    margin-top: 6.5rem;
+    margin-bottom: 4rem;
 }
 
 .application-btn{
     background-color: #381F92;
     color: #fff;
-    padding: 0.5rem 2.5rem;
-    font-size: 12px;
-}
-
-.card-link{
-    color: #1c1c1c;
-    font-size: 0.6rem;
-}
-
-.protection-bottom-section{
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    align-items: center;
-}
-
-
-
-
-
-@media screen and (min-width:660px) {   
-
-/* //--- Navbar Section ----//  */
-nav{
-    width: 85vw;
-    display: flex;
-    margin: auto;
-    justify-content: space-between;
-    flex-direction: row;
-}
-
-.hamburgerMenu{
-    display: none;
-}
-    
-.logo{
-    width: 26px;
-    font-size: 18px;
-    font-family: "Bebas Neue";
-    font-weight: 700;
+    padding: 1rem 0rem;
+    font-size: 15px;
+    margin-top: 5rem;
+    margin-bottom: 10rem;
     text-align: center;
-    text-decoration: underline;
-    padding: 1px 1px;
-    border: 3px solid #381F92;
-}
-
-.nav-list{
-    display: flex;
-    flex-direction: row;
-    font-size: 0.65rem;
-    gap: 1rem;
-    justify-content: flex-end;
-   
-}
-
-/* navBar-right-section */
-.right-part{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.languages{
-    margin-left: 1rem;
-}
-
-.divider-lines{
-    
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-top: 0.35rem;
-}
-
-.divider-lines>li{
-    height: 6px;
-    border-right: 1px solid #381F92;
-    margin-right: 4.1rem;
-}
-
-.divider-lines>li:nth-child(2){
-    margin-right: 4.8rem;
-}
-
-.divider-lines>li:nth-child(3){
-    margin-right: 4.3rem;
-}
-
-.nav-list-line{
-    margin-top: 0rem;
-    border-bottom: 1px solid #381F92 ;
-}
-
-/* //-- Hero Section --// */
-
-
-
-}
-
-/* Medium Screens */
-@media screen and (min-width:768px) {
-
-  
-/* //--- Navbar Section ----//  */
-.logo{
-    width: 32px;
-    font-size: 20px;
-    font-family: "Bebas Neue";
-    font-weight: 700;
-    text-align: center;
-    text-decoration: underline;
-    border: 3px solid #381F92;
-}
-
-/* navBar-right-section */
-.nav-list{
-    display: flex;
-    flex-direction: row;
-    font-size: 0.65rem;
-    font-weight: 600;
-    gap: 1.5rem;
-    justify-content: flex-end;
-   
-}
-
-.languages{
-    margin-left: 2.5rem;
-}
-
-.divider-lines{
-    
-    margin-top: 0.4rem;
-}
-
-.divider-lines>li{
-    height: 8px;
-    border-right: 1px solid #381F92;
-    margin-right: 4.5rem;
-}
-
-.divider-lines>li:nth-child(2){
-    margin-right: 5.25rem;
-}
-
-.divider-lines>li:nth-child(3){
-    margin-right: 4.8rem;
-}
-
-.nav-list-line{
-    margin-top: 0rem;
-    border-bottom: 1px solid #381F92 ;
-}
-
-/* //-- Hero Section --// */
-
-
-
-}
-
-/* Large Screens */
-@media screen and (min-width:1024px) {
-    
-    .nav-list{
-        font-size: 0.7rem;
-    }
-
-    .divider-lines>li{
-        height: 7px;
-        
-    }
-
-    
-}
-
-/* Extra Large Screens */
-@media screen  and (min-width:1700px) {
-    
-    body{
-        
-        padding: 2.5rem 0rem;
-        /* background-color: #1c1c1c;
-        color: #fff; */
-    }
-    
-    /* //--- Navbar Section ----//  */
-    nav{
-        width: 80vw;
-        
-    }
-
-    .logo{
-        width: 50px;
-        font-size: 32px;
-        padding: 4px 0px;
-        border: 4.5px solid #381F92;
-    }
-
-    /* navBar-right-section */
-    .nav-list{
-        display: flex;
-        flex-direction: row;
-        font-size: 1.2rem;
-        font-weight: 600;
-        gap: 5rem;
-        justify-content: flex-end;
-       
-    }
-
-    .languages{
-        margin-left: 11rem;
-    }
-
-    .divider-lines{
-        margin-top: 1rem;
-    }
-
-    .divider-lines>li{
-        height: 14px;
-        border-right: 1.25px solid #381F92;
-        margin-right: 10.5rem;
-    }
-    
-    .divider-lines>li:nth-child(2){
-        margin-right: 12rem;
-    }
-    
-    .divider-lines>li:nth-child(3){
-        margin-right: 11.5rem;
-    }
-
-    /* // --Hero Section-- // */
-
-    .hero-heading{
-        width: 88vw;
-        margin: auto;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 3rem;
-        font-size: 90px;
-        font-weight: 900;
-        
-    }
-    
-    .zinacor{
-        color: #381F92;
-        margin-right: 0.2rem;
-    }
-    
-    .arrow{
-        height: 14px;
-        width: 14px;
-        border-right: 4px solid #381F92;
-        border-bottom: 4px solid #381F92;
-        /* margin-top: 10px;
-        margin-left: 6rem; */
-    }
-    
-    .hero-first-sec{
-        text-align: center;
-        /* margin-left: -12rem;  */
-        display: flex;
-        flex-direction: row;
-        
-        
-    }
-    
-    .hero img{
-        width: 100vw;
-        
-    }
-
-    .mobile-view-line{
-        display: none;
-    }
-
-    /* //--PROTECTION SECTION--// */
-    .protection, .protection-bottom-section, .portection-line{
-        display: none;
-    }
-
-    /* //--REFERENCES SECTION--// */
-
-    .References{
-        width: 80vw;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-        margin-top: 3rem;
-        margin-bottom: 3rem;
-
-    }
-
-    /* Reference-sec Heading-sec */
-    .sec-heading{
-        font-size: 40px;
-        font-weight: 900;
-    }
-
-    /* Reference-sec Content-sec */
-
-    .Reference-Content-sec{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .Reference-Content, .Reference-Content>div{
-        display: flex;
-        flex: row;
-        justify-content: space-between;
-        gap:4rem;
-    }
-
-    .sNo{
-        font-size: 16px;
-    }
-    .oilplatform{
-        
-        height: 300px;
-        margin-right: 2rem;
-    }
-    
-
-    .Reference-Content-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 2rem;
-        letter-spacing: 0.05rem;
-       
-    }
-
-    .Rfct h2{
-        margin-bottom: 2rem;
-    }
-
-    .Rfct div p{
-        font-size: 16px;
-        margin-bottom: 0.3rem;
-    }
-
-    .Rfct-formula{
-        color: #381F92;
-    }
-
-    /* Reference-sec Button-sec */
-
-    .Reference-btn{
-        background-color: #381F92;
-        color: #fff;
-        border: none;
-        padding: 0.75rem;
-        margin-top: 2rem;
-    }
-    /* //--FOOTER SECTION--// */
-
-    .footer-products{
-        width: 90vw;
-        margin: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .top-line{
-        height: 2px;
-        background-color: #381F92;
-        margin-bottom: 0.5rem;
-    }
-
-    .footer-products-heading{
-        font-size: 40px;
-        font-weight: 900;
-    }
-
-    .footer-elements{
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
-
-    .footer-element-text, .footer-element-text>div{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .footer-element-text>div>div{
-        font-size: 24px;
-        margin-left: 1.75rem;
-    }
-
-    .line{
-        height: 1px;
-        width: 100%;
-        background-color: #381F92;
-        margin-bottom: 1rem;
-    }
-
-    /* other-wires-sec Start */
-
-    .other-wires-arrow{
-        transform: rotate(-45deg);
-    }
-
-    .other-wires-details{
-        display: flex;
-        flex-direction: row;
-        width: 80%;
-        justify-content: space-between;
-    }
-
-    .other-wires-details>div{
-        display: flex;
-        flex-direction: column;
-        gap: 2rem;
-    }
-
-    .chemical-formula{
-        text-decoration: underline;
-        font-weight: 600;
-    }
-
-    /* other-wires-sec End */
-
 }

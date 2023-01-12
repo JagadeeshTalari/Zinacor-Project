@@ -1,0 +1,116 @@
+.zinacor{
+    color: #381F92;
+    margin-right: 1rem;
+}
+
+.hero-heading>div:nth-child(2){
+    margin-left: 12rem;
+}
+
+.common-Sec-Heading>span{
+    margin-left: 7rem;
+}
+
+.Section2-left-part-bottomSection{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 13rem;
+    margin-bottom: 4rem;
+}
+
+.zincAluminium, .zincFormulas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.zincAluminium{
+    padding: 0.2rem 0rem;
+}
+
+.zincAluminium h3{
+    font-size: 14px;
+    
+}
+
+.zincAluminium a{
+    font-size: 12px;
+    color: #A4A4B9;
+
+}
+
+.zincFormulas h1{
+    color: #381F92;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+.sec2-rightPart>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E4E4E4;
+    width: 60%;
+    height: 350px;
+    position: relative;
+    bottom: 5.75rem;
+
+}
+
+.circularLogo{
+    position: relative;
+    bottom: 0rem;
+    z-index: 1;
+}
+
+.zinc-coil{
+    width: 100%;
+    
+}
+
+.Section2-Card-sec{
+    display: flex;
+
+}
+
+.Section-2>.line{
+    margin-bottom: 0;
+}
+
+.card{
+    width: 30%;
+    padding: 2%;
+    padding-top: 0%;
+    border-right: #381F92 solid 1px;
+}
+
+.card3{
+    border-right: none;
+}
+
+.card>div{
+    padding: 2rem;
+    padding-bottom: 0rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+    height: 100px;
+}
+
+.card>div>p{
+    font-size: 14px;
+}
+
+.card>div>h6{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.card>div>a{
+    text-decoration: none;
+    color: #000;
+    align-content: flex-end;
+
+}
