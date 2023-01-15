@@ -46,3 +46,29 @@
 .ElectroPlating-text{
     margin-left: 28rem;
 }
+
+/* //-- REFERENCE SECTION  --// */
+
+.Reference-Content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.seeAllReferences{
+    align-self: center;
+}
+
+.ref-right-bottom-text{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.Rfct-formula{
+    margin-top: 2rem;
+}
+
+.ref-arrow{
+    margin-left: 100%;
+
+}
