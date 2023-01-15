@@ -1,0 +1,48 @@
+.apps-heroSection{
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    margin: auto;
+    margin-top: 8rem;
+}
+
+.apps-headingSec{
+    display: flex;
+    flex-direction: row;
+}
+
+.apps-heading{
+    font-size: 70px;
+    font-weight: 900;
+    margin-bottom: 4rem;
+}
+
+.head-arrow{
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+}
+
+.apps-head-imgSec{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.appsImg-names{
+    margin-top: 0.6rem;
+    color: #381F92;
+}
+
+.circularLogo{
+    align-self: flex-end;
+    /* z-index: 1;
+    position: relative;
+    top: 5rem; */
+    margin-top: 3.5rem;
+    margin-left: 2rem;
+    height: 300px;
+}
+
+.ElectroPlating-text{
+    margin-left: 28rem;
+}

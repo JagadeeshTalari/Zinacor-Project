@@ -43,4 +43,70 @@ section{
     height: 300px;
 }
 
+/* section-2 */
+
+.knowhowProcessImg1{
+   width: fit-content;
+}
+
+.Section3-element-text, .Section3-element-text>div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Section3-arrow{
+    margin: 0;
+}
+
+.Section4-Heading{
+    display: flex;
+    flex-direction: row;
+}
+
+.Section4-table{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8rem;
+}
+
+.table-header, .table-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 94%;
+    margin: auto;
+    text-align: right;
+    padding: 0.75rem 0rem;
+}
+
+.table-col-head{
+    text-align: left;
+    width: 30%;
+}
+
+.table-header>div, .table-row>div{
+    width: 25%;
+}
+
+.table-line{
+    margin: 0;
+}
+
+.colored-rows{
+    background-color: #E4E3F3;
+}
+
+.Section4-Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Sec4-text{
+    width: 40%;
+}
+.Sec4-Head{
+    width: 30%;
+}
+
 
