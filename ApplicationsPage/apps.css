@@ -1,74 +1,84 @@
-.apps-heroSection{
-    display: flex;
-    flex-direction: column;
-    width: 80vw;
-    margin: auto;
-    margin-top: 8rem;
+.apps-heroSection {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  margin: auto;
+  margin-top: 8rem;
 }
 
-.apps-headingSec{
-    display: flex;
-    flex-direction: row;
+.apps-headingSec {
+  display: flex;
+  flex-direction: row;
 }
 
-.apps-heading{
-    font-size: 70px;
-    font-weight: 900;
-    margin-bottom: 4rem;
+.apps-heading {
+  font-size: 70px;
+  font-weight: 900;
+  margin-bottom: 4rem;
 }
 
-.head-arrow{
-    margin-left: 2rem;
-    margin-bottom: 4rem;
+.head-arrow {
+  margin-left: 2rem;
+  margin-bottom: 4rem;
 }
 
-.apps-head-imgSec{
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
+.apps-head-imgSec {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }
 
-.appsImg-names{
-    margin-top: 0.6rem;
-    color: #381F92;
+.appsImg-names {
+  margin-top: 0.6rem;
+  color: #381f92;
 }
 
-.circularLogo{
-    align-self: flex-end;
-    /* z-index: 1;
+.circularLogo {
+  align-self: flex-end;
+  /* z-index: 1;
     position: relative;
     top: 5rem; */
-    margin-top: 3.5rem;
-    margin-left: 2rem;
-    height: 300px;
+  margin-top: 3.5rem;
+  margin-left: 2rem;
+  height: 300px;
 }
 
-.ElectroPlating-text{
-    margin-left: 28rem;
+.ElectroPlating-text {
+  margin-left: 28rem;
 }
 
 /* //-- REFERENCE SECTION  --// */
 
-.Reference-Content{
-    display: flex;
-    justify-content: space-between;
+.Reference-Content {
+  display: flex;
+  justify-content: space-between;
 }
 
-.seeAllReferences{
-    align-self: center;
+.seeAllReferences {
+  align-self: center;
 }
 
-.ref-right-bottom-text{
-    display: flex;
-    flex-direction: column;
-   
+.ref-right-bottom-text {
+  display: flex;
+  flex-direction: column;
 }
 
-.Rfct-formula{
-    margin-top: 2rem;
+.Rfct-formula {
+  margin-top: 2rem;
 }
 
-.ref-arrow{
-    margin-left: 100%;
+.ref-arrow {
+  margin-left: 100%;
+}
 
+@media screen and (max-width: 1330px) {
+  .appsImg-Electroplate {
+    width: 630px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .appsImg-Electroplate {
+    width: 550px;
+  }
 }

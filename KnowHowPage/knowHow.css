@@ -1,112 +1,126 @@
-body{
-    /* width: 80vw; */
-    margin: auto;
+body {
+  /* width: 80vw; */
+  margin: auto;
 }
 
-.know-how-heroSection{
-    display: flex;
-    flex-direction: row;
-    width: 80vw;
-    margin: auto;
-    margin-top: 8rem;
+.know-how-heroSection {
+  display: flex;
+  flex-direction: row;
+  width: 80vw;
+  margin: auto;
+  margin-top: 8rem;
 }
 
-.know-heading{
-    font-size: 70px;
-    font-weight: 900;
-    
+.know-heading {
+  font-size: 70px;
+  font-weight: 900;
 }
 
-.head-arrow{
-    align-self: center;
-    margin-left: 5rem;
+.head-arrow {
+  align-self: center;
+  margin-left: 5rem;
 }
 
-.knowhowImg{
-    margin: auto;
+.knowhowImg {
+  margin: auto;
 }
 
-section{
-    width: 85vw;
-    margin: auto;
-    margin-top: 5rem;
+@media screen and (max-width: 1330px) {
+  .knowhowImg {
+    width: 100vw;
+    overflow: clip;
+    /* object-fit: contain; */
+  }
 }
 
-.head-line{
-    height: 2.25px;
-    width: 85vw;
-    margin: auto;
-    margin-top: 6.5rem;
+/* @media screen and (max-width: 1260px) {
+  .knowhowImg {
+    width: 1260px;
+  }
+} */
+
+section {
+  width: 85vw;
+  margin: auto;
+  margin-top: 5rem;
 }
 
-.circularImg{
-    height: 300px;
+.head-line {
+  height: 2.25px;
+  width: 85vw;
+  margin: auto;
+  margin-top: 6.5rem;
+}
+
+.circularImg {
+  height: 300px;
 }
 
 /* section-2 */
 
-.knowhowProcessImg1{
-   width: fit-content;
+.knowhowProcessImg1 {
+  width: fit-content;
 }
 
-.Section3-element-text, .Section3-element-text>div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.Section3-element-text,
+.Section3-element-text > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.Section3-arrow{
-    margin: 0;
+.Section3-arrow {
+  margin: 0;
 }
 
-.Section4-Heading{
-    display: flex;
-    flex-direction: row;
+.Section4-Heading {
+  display: flex;
+  flex-direction: row;
 }
 
-.Section4-table{
-    display: flex;
-    flex-direction: column;
-    margin-top: 8rem;
+.Section4-table {
+  display: flex;
+  flex-direction: column;
+  margin-top: 8rem;
 }
 
-.table-header, .table-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 94%;
-    margin: auto;
-    text-align: right;
-    padding: 0.75rem 0rem;
+.table-header,
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 94%;
+  margin: auto;
+  text-align: right;
+  padding: 0.75rem 0rem;
 }
 
-.table-col-head{
-    text-align: left;
-    width: 30%;
+.table-col-head {
+  text-align: left;
+  width: 30%;
 }
 
-.table-header>div, .table-row>div{
-    width: 25%;
+.table-header > div,
+.table-row > div {
+  width: 25%;
 }
 
-.table-line{
-    margin: 0;
+.table-line {
+  margin: 0;
 }
 
-.colored-rows{
-    background-color: #E4E3F3;
+.colored-rows {
+  background-color: #e4e3f3;
 }
 
-.Section4-Heading{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+.Section4-Heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-.Sec4-text{
-    width: 40%;
+.Sec4-text {
+  width: 40%;
 }
-.Sec4-Head{
-    width: 30%;
+.Sec4-Head {
+  width: 30%;
 }
-
-
